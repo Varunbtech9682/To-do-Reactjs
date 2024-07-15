@@ -1,0 +1,51 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* height: 100%; */
+
+}
+
+#root{
+  /* padding-top: 10px; */
+  position: absolute;
+  left: 35%;
+}
+
+#particles-js{
+  height: 100%;
+  background: rgb(0, 0, 0) ;
+  position: relative;
+}
+
+
+@media only screen and (max-width: 875px) {
+  #root{
+    position: absolute;
+    left: 30%;
+  }
+  body{
+    background: black;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  #root{
+    position: absolute;
+    left: 10%;
+  }
+}
+
+
+
+@media only screen and (max-width: 439px) {
+  #root{
+    position: absolute;
+    left: 5%;
+  }
+  body{
+    background: black;
+  }
+}
+
+
